@@ -89,7 +89,7 @@
     "no-var": 2,
     "brace-style": [2, "stroustrup", {"allowSingleLine": true}],
     "func-names": 2,
-    "strict": 0,
+    "strict": [2. "global"],
 
     "react/display-name": [2, {"acceptTranspilerName": true}],
     "react/jsx-boolean-value": [2, "always"],
