@@ -1,0 +1,33 @@
+{
+  "name": "@lukekarrys/eslint-config",
+  "description": "lukekarrys eslint config",
+  "version": "0.0.0",
+  "author": "Luke Karrys <luke@lukekarrys.com>",
+  "bugs": {
+    "url": "https://github.com/lukekarrys/eslint-config/issues"
+  },
+  "devDependencies": {
+    "eslint": "^1.1.0",
+    "tape": "^4.1.0"
+  },
+  "homepage": "https://github.com/lukekarrys/eslint-config",
+  "keywords": [
+    "dont use this probably",
+    "eslint",
+    "lukekarrys"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.1.0",
+    "eslint-plugin-react": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukekarrys/eslint-config.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  }
+}
