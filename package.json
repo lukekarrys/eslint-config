@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "eslint": "^1.1.0",
+    "precommit-hook": "^3.0.0",
     "tape": "^4.1.0"
   },
   "homepage": "https://github.com/lukekarrys/eslint-config",
@@ -28,6 +29,11 @@
     "url": "git://github.com/lukekarrys/eslint-config.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
-  }
+    "test": "tape test/*.js",
+    "validate": "npm ls"
+  },
+  "pre-commit": [
+    "validate",
+    "test"
+  ]
 }

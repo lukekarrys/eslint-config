@@ -1,6 +1,10 @@
 The MIT License (MIT)
 
-Copyright (c) Luke Karrys
+Copyright (c) 2015 Feross Aboukhadijeh and Luke Karrys
+
+Copyright for portions of tests/ are held by Feross Aboukhadijeh 2015
+as part of https://www.npmjs.com/package/eslint-config-standard. All other
+copyright for are held by Luke Karrys 2015.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

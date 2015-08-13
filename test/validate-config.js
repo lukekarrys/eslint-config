@@ -8,6 +8,6 @@ test('load config in eslint to validate all rule syntax is correct', function (t
     configFile: 'eslintrc.json'
   });
 
-  t.ok(cli.executeOnText('var foo\n'));
+  t.ok(cli.executeOnText('var foo;\n'));
   t.end();
 });
