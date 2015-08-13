@@ -26,6 +26,10 @@
     "eslint": "^1.1.0",
     "eslint-plugin-react": "^3.2.2"
   },
+  "pre-commit": [
+    "validate",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/lukekarrys/eslint-config.git"
@@ -33,9 +37,5 @@
   "scripts": {
     "test": "tape test/*.js",
     "validate": "npm ls"
-  },
-  "pre-commit": [
-    "validate",
-    "test"
-  ]
+  }
 }
