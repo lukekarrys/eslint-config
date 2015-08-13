@@ -7,6 +7,15 @@ This is my [`eslint`](http://eslint.org/) config.
 
 Use it if you want to write code exactly like me. It's probably not that useful to you though.
 
+I'll probably change stuff quite a bit and bump the patch version, and leave major overhauls for major versions.
+
+Things it does
+
+- `babel-eslint`
+- `react`
+- Some stuff copied from `standard`
+- Some stuff copied from the old 0.x.y `eslint` defaults
+
 
 ## Usage
 

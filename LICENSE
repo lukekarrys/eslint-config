@@ -2,7 +2,7 @@ The MIT License (MIT)
 
 Copyright (c) 2015 Feross Aboukhadijeh and Luke Karrys
 
-Copyright for portions of tests/ are held by Feross Aboukhadijeh 2015
+Copyright for portions of tests/ and eslintrc.json are held by Feross Aboukhadijeh 2015
 as part of https://www.npmjs.com/package/eslint-config-standard. All other
 copyright for are held by Luke Karrys 2015.
 
