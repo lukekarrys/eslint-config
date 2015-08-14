@@ -10,8 +10,7 @@
 
   "plugins": [
     "react",
-    "classes",
-    "arrow-function"
+    "classes"
   ],
 
   "globals": {
@@ -106,8 +105,8 @@
     "classes/name": [2, "class", "method"],
 
     // Arrow function
-    "arrow-function/no-condition": 2,
-    // Might be able to replace with this sometime
+    // Replace arrow-function plugin with this since the plugin
+    // doesnt work for single line functions with a condition
     // https://github.com/eslint/eslint/issues/3280
     // "no-arrow-condition": 2,
 
