@@ -12,6 +12,8 @@
   "devDependencies": {
     "babel-eslint": "^4.0.5",
     "eslint": "^1.1.0",
+    "eslint-plugin-arrow-function": "^1.0.1",
+    "eslint-plugin-classes": "0.0.4",
     "eslint-plugin-react": "^3.2.2",
     "precommit-hook": "^3.0.0",
     "tape": "^4.1.0"
@@ -27,6 +29,8 @@
   "peerDependencies": {
     "babel-eslint": "^4.0.5",
     "eslint": "^1.1.0",
+    "eslint-plugin-arrow-function": "^1.0.1",
+    "eslint-plugin-classes": "0.0.4",
     "eslint-plugin-react": "^3.2.2"
   },
   "pre-commit": [
