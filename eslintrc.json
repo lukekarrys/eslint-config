@@ -20,6 +20,7 @@
 
   "extends": "eslint:recommended",
   "rules": {
+    // Pre v1 defaults
     "no-alert": 2,
     "no-array-constructor": 2,
     "no-caller": 2,
@@ -70,6 +71,7 @@
     "space-unary-ops": [2, {"words": true, "nonwords": false}],
     "yoda": [2, "never"],
 
+    // My stuffs
     "comma-dangle": [2, "never"],
     "comma-spacing": [2, {"before": false, "after": true}],
     "comma-style": [2, "last"],
@@ -80,7 +82,8 @@
     "space-in-parens": [2, "never"],
     "object-curly-spacing": [2, "never"],
     "computed-property-spacing": [2, "never"],
-    "block-spacing": [2, "never"],
+    // Might land in 1.2.0
+    // "block-spacing": [2, "never"],
     "no-mixed-spaces-and-tabs": 2,
     "spaced-comment": [2, "always"],
     "no-console": 2,
@@ -93,9 +96,11 @@
     "strict": [2, "global"],
     "object-shorthand": [2, "always"],
     "prefer-const": 2,
-    "prefer-arrow-callback": 2,
+    // Might land in 1.2.0
+    // "prefer-arrow-callback": 2,
     "arrow-parens": [2, "as-needed"],
 
+    // React
     "react/display-name": [2, {"acceptTranspilerName": true}],
     "react/jsx-boolean-value": [2, "always"],
     "react/jsx-curly-spacing": [2, "never"],
@@ -119,6 +124,7 @@
     "react/sort-comp": 2,
     "react/wrap-multilines": 2,
 
+    // Standard-ish
     "accessor-pairs": 2,
     "arrow-spacing": [2, {"before": true, "after": true}],
     "constructor-super": 2,

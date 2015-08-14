@@ -6,6 +6,9 @@
   "bugs": {
     "url": "https://github.com/lukekarrys/eslint-config/issues"
   },
+  "dependencies": {
+    "alce": "^1.1.0"
+  },
   "devDependencies": {
     "babel-eslint": "^4.0.5",
     "eslint": "^1.1.0",
