@@ -10,12 +10,12 @@
     "alce": "^1.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^4.0.5",
-    "eslint": "^1.1.0",
+    "babel-eslint": "^4.0.10",
+    "eslint": "^1.2.0",
     "eslint-plugin-classes": "0.0.4",
-    "eslint-plugin-react": "^3.2.2",
+    "eslint-plugin-react": "^3.2.3",
     "precommit-hook": "^3.0.0",
-    "tape": "^4.1.0"
+    "tape": "^4.2.0"
   },
   "homepage": "https://github.com/lukekarrys/eslint-config",
   "keywords": [
@@ -26,10 +26,10 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "babel-eslint": "^4.0.5",
-    "eslint": "^1.1.0",
+    "babel-eslint": "^4.0.10",
+    "eslint": "^1.2.0",
     "eslint-plugin-classes": "0.0.4",
-    "eslint-plugin-react": "^3.2.2"
+    "eslint-plugin-react": "^3.2.3"
   },
   "pre-commit": [
     "validate",
