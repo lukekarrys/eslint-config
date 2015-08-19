@@ -1,15 +1,12 @@
-var config = require('../');
-var test = require('tape');
+'use strict';
 
-function isObject (obj) {
-  return typeof obj === 'object' && obj !== null;
-}
+import test from 'tape';
+import config from '../';
 
-function isString (obj) {
-  return typeof obj === 'string';
-}
+const isObject = (obj) => typeof obj === 'object' && obj !== null;
+const isString = (obj) => typeof obj === 'string';
 
-test('test basic properties of config', function (t) {
+test('test basic properties of config', (t) => {
   t.ok(isObject(config.env));
   t.ok(isObject(config.plugins));
   t.ok(isObject(config.globals));

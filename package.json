@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^4.0.10",
+    "babel-tape-runner": "^1.2.0",
     "eslint": "^1.2.0",
     "eslint-plugin-classes": "0.0.4",
     "eslint-plugin-react": "^3.2.3",
@@ -33,6 +34,7 @@
   },
   "pre-commit": [
     "validate",
+    "lint",
     "test"
   ],
   "repository": {
@@ -40,7 +42,8 @@
     "url": "git://github.com/lukekarrys/eslint-config.git"
   },
   "scripts": {
-    "test": "tape test/*.js",
+    "lint": "eslint -c eslintrc.json .",
+    "test": "babel-tape-runner test/*.js",
     "validate": "npm ls"
   }
 }

@@ -1,13 +1,26 @@
-var test = require('tape');
+'use strict';
 
-test('load config in eslint to validate all rule syntax is correct', function (t) {
-  var CLIEngine = require('eslint').CLIEngine;
+import test from 'tape';
+import {CLIEngine} from 'eslint';
 
-  var cli = new CLIEngine({
+const code = `
+'use strict';
+import t from 'module';
+const foo = 1;
+t(foo);
+`;
+
+test('load config in eslint to validate all rule syntax is correct', (t) => {
+  const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
     configFile: 'eslintrc.json'
-  });
+  }).executeOnText(code);
 
-  t.ok(cli.executeOnText('var foo;\n'));
+  t.equal(results.length, 1, 'One result (empty)');
+  t.equal(results[0].messages.length, 0, 'No messages');
+  t.equal(results[0].errorCount, 0, 'No result error count');
+  t.equal(results[0].warningCount, 0, 'No result warning count');
+  t.equal(errorCount, 0, 'Error count is 0');
+  t.equal(warningCount, 0, 'Warning count count is 0');
   t.end();
 });
