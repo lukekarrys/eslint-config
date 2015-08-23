@@ -12,7 +12,7 @@
   "devDependencies": {
     "babel-eslint": "^4.0.10",
     "babel-tape-runner": "^1.2.0",
-    "eslint": "^1.2.0",
+    "eslint": "^1.2.1",
     "eslint-plugin-classes": "0.0.4",
     "eslint-plugin-react": "^3.2.3",
     "precommit-hook": "^3.0.0",
@@ -28,7 +28,7 @@
   "main": "index.js",
   "peerDependencies": {
     "babel-eslint": "^4.0.10",
-    "eslint": "^1.2.0",
+    "eslint": "^1.2.1",
     "eslint-plugin-classes": "0.0.4",
     "eslint-plugin-react": "^3.2.3"
   },
