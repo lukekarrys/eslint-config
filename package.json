@@ -10,11 +10,11 @@
     "alce": "^1.1.0"
   },
   "devDependencies": {
-    "babel-eslint": "^4.0.10",
+    "babel-eslint": "^4.1.0",
     "babel-tape-runner": "^1.2.0",
     "eslint": "^1.2.1",
     "eslint-plugin-classes": "0.0.4",
-    "eslint-plugin-react": "^3.2.3",
+    "eslint-plugin-react": "^3.3.0",
     "precommit-hook": "^3.0.0",
     "tape": "^4.2.0"
   },
@@ -27,10 +27,10 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "babel-eslint": "^4.0.10",
+    "babel-eslint": "^4.1.0",
     "eslint": "^1.2.1",
     "eslint-plugin-classes": "0.0.4",
-    "eslint-plugin-react": "^3.2.3"
+    "eslint-plugin-react": "^3.3.0"
   },
   "pre-commit": [
     "validate",
