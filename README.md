@@ -7,7 +7,7 @@ This is my [`eslint`](http://eslint.org/) config.
 
 Use it if you want to write code exactly like me. It's probably not that useful to you though.
 
-I'll probably change stuff quite a bit and bump the patch version, and leave major overhauls for major versions.
+I'll probably change stuff quite a bit and just bump the patch version, and leave major versions for when I don't want to update existing projects to lint against the latest config.
 
 Things it does
 
