@@ -4,8 +4,7 @@
   "env": {
     "browser": false,
     "node": true,
-    "es6": true,
-    "jsx": true
+    "es6": true
   },
 
   "plugins": [
@@ -99,6 +98,8 @@
     "arrow-parens": [2, "always"],
     "prefer-arrow-callback": 2,
     "prefer-template": 2,
+    "jsx-quotes": [2, "prefer-single"],
+    "space-before-keywords": [2, "always"],
 
     // Classes
     "classes/name": [2, "class", "method"],
