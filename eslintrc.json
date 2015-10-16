@@ -9,7 +9,8 @@
 
   "plugins": [
     "react",
-    "classes"
+    "classes",
+    "arrow-function"
   ],
 
   "globals": {
@@ -109,10 +110,9 @@
     "classes/style": 2,
 
     // Arrow function
-    // Replace arrow-function plugin with this since the plugin
-    // doesnt work for single line functions with a condition
+    // Replace arrow-function plugin with this since the rule onces its in core
     // https://github.com/eslint/eslint/issues/3280
-    // "no-arrow-condition": 2,
+    "arrow-function/no-condition": 2,
 
     // React
     "react/display-name": [2, {"acceptTranspilerName": true}],
