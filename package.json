@@ -12,11 +12,11 @@
   "devDependencies": {
     "babel-eslint": "^4.1.3",
     "babel-tape-runner": "^1.2.0",
-    "eslint": "^1.5.1",
-    "eslint-plugin-classes": "0.0.4",
+    "eslint": "^1.7.1",
+    "eslint-plugin-classes": "0.1.0",
     "eslint-plugin-react": "^3.5.1",
     "precommit-hook": "^3.0.0",
-    "tape": "^4.2.0"
+    "tape": "^4.2.1"
   },
   "homepage": "https://github.com/lukekarrys/eslint-config",
   "keywords": [
@@ -28,8 +28,8 @@
   "main": "index.js",
   "peerDependencies": {
     "babel-eslint": "^4.1.3",
-    "eslint": "^1.5.1",
-    "eslint-plugin-classes": "0.0.4",
+    "eslint": "^1.7.1",
+    "eslint-plugin-classes": "0.1.0",
     "eslint-plugin-react": "^3.5.1"
   },
   "pre-commit": [

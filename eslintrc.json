@@ -100,9 +100,13 @@
     "prefer-template": 2,
     "jsx-quotes": [2, "prefer-single"],
     "space-before-keywords": [2, "always"],
+    "no-empty-pattern": 2,
+    "no-magic-numbers": [2, {"enforceConst": true}],
+    "func-style": [2, "expression", {"allowArrowFunctions": true}],
 
     // Classes
     "classes/name": [2, "class", "method"],
+    "classes/style": 2,
 
     // Arrow function
     // Replace arrow-function plugin with this since the plugin
