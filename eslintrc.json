@@ -104,7 +104,8 @@
     "no-magic-numbers": [2, {"enforceConst": true}],
     "func-style": [2, "expression", {"allowArrowFunctions": true}],
     "arrow-body-style": [2, "as-needed"],
-    "no-arrow-condition": 2,
+    // Remove for now
+    // "no-arrow-condition": 2,
 
     // Classes
     "classes/name": [2, "class", "method"],
