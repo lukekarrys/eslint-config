@@ -9,8 +9,7 @@
 
   "plugins": [
     "react",
-    "classes",
-    "arrow-function"
+    "classes"
   ],
 
   "globals": {
@@ -104,15 +103,12 @@
     "no-empty-pattern": 2,
     "no-magic-numbers": [2, {"enforceConst": true}],
     "func-style": [2, "expression", {"allowArrowFunctions": true}],
+    "arrow-body-style": [2, "as-needed"],
+    "no-arrow-condition": 2,
 
     // Classes
     "classes/name": [2, "class", "method"],
     "classes/style": 2,
-
-    // Arrow function
-    // Replace arrow-function plugin with this since the rule onces its in core
-    // https://github.com/eslint/eslint/issues/3280
-    "arrow-function/no-condition": 2,
 
     // React
     "react/display-name": [2, {"acceptTranspilerName": true}],
