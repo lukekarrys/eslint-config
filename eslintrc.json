@@ -101,7 +101,7 @@
     "jsx-quotes": [2, "prefer-single"],
     "space-before-keywords": [2, "always"],
     "no-empty-pattern": 2,
-    "no-magic-numbers": [2, {"enforceConst": true}],
+    "no-magic-numbers": [2, {"enforceConst": true, "ignore": [-1, 0, 1, 2]}],
     "func-style": [2, "expression", {"allowArrowFunctions": true}],
     "arrow-body-style": [2, "as-needed"],
     "no-case-declarations": 2,
