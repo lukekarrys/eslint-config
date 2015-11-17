@@ -21,7 +21,7 @@ Things it does
 
 ```sh
 npm install @lukekarrys/eslint-config --save-dev
-npm install babel-eslint eslint eslint-plugin-react --save-dev
+npm install babel-eslint eslint eslint-plugin-react eslint-plugin-classes --save-dev
 echo '{\n  "extends": "@lukekarrys/eslint-config"\n}' > .eslintrc
 ```
 
