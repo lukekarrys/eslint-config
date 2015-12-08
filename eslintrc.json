@@ -4,7 +4,7 @@
   "env": {
     "browser": false,
     "node": true,
-    "es6": true
+    "commonjs": true
   },
 
   "plugins": [
@@ -20,7 +20,7 @@
 
   "extends": "eslint:recommended",
   "rules": {
-    // Pre v1 defaults
+    // Pre v1 eslint defaults
     "no-alert": 2,
     "no-array-constructor": 2,
     "no-caller": 2,
@@ -70,13 +70,13 @@
     "space-unary-ops": [2, {"words": true, "nonwords": false}],
     "yoda": [2, "never"],
 
-    // My stuffs
+    // Custom
     "no-underscore-dangle": 0,
     "comma-dangle": [2, "never"],
     "comma-spacing": [2, {"before": false, "after": true}],
     "comma-style": [2, "last"],
     "curly": [2, "multi-line"],
-    "space-before-function-paren": [2, "always"],
+    "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
     "space-after-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
     "space-in-parens": [2, "never"],
@@ -92,7 +92,6 @@
     "no-var": 2,
     "brace-style": [2, "stroustrup", {"allowSingleLine": true}],
     "func-names": 2,
-    "strict": [2, "global"],
     "object-shorthand": [2, "always"],
     "prefer-const": 2,
     "arrow-parens": [2, "always"],
@@ -113,9 +112,8 @@
 
     // React
     "react/display-name": [2, {"acceptTranspilerName": true}],
-    // This will take some more effort to upgrade to so not enabling it just yet
-    // "react/forbid-prop-types": [2, {"forbid": ["any", "array", "object"]}],
-    "react/jsx-boolean-value": [2, "always"],
+    "react/forbid-prop-types": [1, {"forbid": ["any", "array", "object"]}],
+    "react/jsx-boolean-value": [2, "never"],
     "react/jsx-closing-bracket-location": [1, {"location": "tag-aligned"}],
     "react/jsx-curly-spacing": [2, "never"],
     "react/jsx-key": 2,
@@ -131,7 +129,7 @@
     "react/jsx-uses-vars": 2,
     "react/no-danger": 0,
     "react/no-did-mount-set-state": [2, "allow-in-func"],
-    "react/no-did-update-set-state": 2,
+    "react/no-did-update-set-state": [2, "allow-in-func"],
     "react/no-direct-mutation-state": 2,
     "react/no-multi-comp": 0,
     "react/no-unknown-property": 2,
@@ -144,7 +142,7 @@
     // "react/sort-comp": 2,
     "react/wrap-multilines": 2,
 
-    // Standard-ish
+    // Some stuff copied from standard
     "accessor-pairs": 2,
     "arrow-spacing": [2, {"before": true, "after": true}],
     "constructor-super": 2,
