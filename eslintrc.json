@@ -123,6 +123,7 @@
     "react/jsx-no-duplicate-props": [2, {"ignoreCase": false}],
     "react/jsx-no-literals": 0,
     "react/jsx-no-undef": 2,
+    "react/jsx-pascal-case": 2,
     "react/jsx-sort-prop-types": 0,
     "react/jsx-sort-props": 0,
     "react/jsx-uses-react": 2,
@@ -137,9 +138,6 @@
     "react/prop-types": 2,
     "react/react-in-jsx-scope": 2,
     "react/self-closing-comp": 2,
-    // Removing for now since doesnt work too well with es7 class properties
-    // See https://github.com/yannickcr/eslint-plugin-react/issues/128
-    // "react/sort-comp": 2,
     "react/wrap-multilines": 2,
 
     // Some stuff copied from standard
