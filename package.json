@@ -7,7 +7,7 @@
     "url": "https://github.com/lukekarrys/eslint-config/issues"
   },
   "dependencies": {
-    "alce": "github:lukekarrys/alce#master",
+    "alce": "^1.2.0",
     "eslint": "^1.10.3"
   },
   "devDependencies": {
