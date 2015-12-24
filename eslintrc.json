@@ -112,6 +112,7 @@
     "classes/style": 2,
 
     // React
+    "react/no-depreacted": 2,
     "react/display-name": [2, {"acceptTranspilerName": true}],
     "react/forbid-prop-types": [1, {"forbid": ["any"]}],
     "react/jsx-boolean-value": [2, "never"],
@@ -133,6 +134,7 @@
     "react/no-did-mount-set-state": [2, "allow-in-func"],
     "react/no-did-update-set-state": [2, "allow-in-func"],
     "react/no-direct-mutation-state": 2,
+    "react/no-is-mounted": 2,
     "react/no-multi-comp": 0,
     "react/no-unknown-property": 2,
     "react/prefer-es6-class": 2,
