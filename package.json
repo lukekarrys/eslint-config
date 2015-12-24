@@ -7,8 +7,7 @@
     "url": "https://github.com/lukekarrys/eslint-config/issues"
   },
   "dependencies": {
-    "alce": "^1.2.0",
-    "eslint": "^1.10.3"
+    "alce": "^1.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0 || ^5.0.0-beta4",

@@ -82,6 +82,7 @@
     "space-in-parens": [2, "never"],
     "object-curly-spacing": [2, "never"],
     "computed-property-spacing": [2, "never"],
+    "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "never"],
     "no-mixed-spaces-and-tabs": 2,
     "spaced-comment": [2, "always"],
@@ -106,13 +107,23 @@
     "no-case-declarations": 2,
     "no-constant-condition": 2,
     "prefer-spread": 2,
+    "callback-return": [2, ["callback", "cb", "next", "_cb"]],
+    "consistent-this": [2, "self"],
+    "linebreak-style": [2, "unix"],
+    "no-empty": 2,
+    "no-extra-semi": 2,
+    "no-invalid-this": 2,
+    "quote-props": [2, "as-needed", {"keywords": true}],
+    "no-useless-concat": 2,
+    "no-nested-ternary": 2,
+    "no-path-concat": 2,
 
     // Classes
     "classes/name": [2, "class", "method"],
     "classes/style": 2,
 
     // React
-    "react/no-depreacted": 2,
+    "react/no-deprecated": 2,
     "react/display-name": [2, {"acceptTranspilerName": true}],
     "react/forbid-prop-types": [1, {"forbid": ["any"]}],
     "react/jsx-boolean-value": [2, "never"],

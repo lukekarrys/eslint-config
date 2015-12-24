@@ -8,6 +8,8 @@ const code = `
 import t from 'module';
 const foo = 1;
 t(foo);
+const bar = ['x', 'y', 'z'];
+t(bar);
 `;
 
 test('load config in eslint to validate all rule syntax is correct', (t) => {
