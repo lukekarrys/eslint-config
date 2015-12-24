@@ -124,6 +124,11 @@
     "prefer-rest-params": 2,
     "no-unmodified-loop-condition": 2,
 
+    // eslint v2 rules
+    "array-callback-return": 2,
+    "no-implicit-globals": 2,
+    "prefer-rest-params": 2,
+
     // Classes
     "classes/name": [2, "class", "method"],
     "classes/style": 2,
