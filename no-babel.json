@@ -6,9 +6,22 @@
   "parserOptions": {
     "ecmaVersion": 6,
     "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    },
-    "sourceType": "module"
+      // Everything that works in node 5 without a flag
+      "arrowFunctions": true,
+      "binaryLiterals": true,
+      "blockBindings": true,
+      "classes": true,
+      "defaultParams": true,
+      "destructuring": true,
+      "generators": true,
+      "objectLiteralComputedProperties": true,
+      "objectLiteralDuplicateProperties": true,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
+      "octalLiterals": true,
+      "spread": true,
+      "templateStrings": true
+    }
   },
 
   "env": {
@@ -17,6 +30,7 @@
   },
 
   "rules": {
-    "no-invalid-this": 2
+    "no-invalid-this": 2,
+    "strict": [2, "safe"]
   }
 }

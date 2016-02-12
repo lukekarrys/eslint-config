@@ -12,6 +12,15 @@ const bar = ['x', 'y', 'z'];
 t(bar);
 `;
 
+const nonBabelCode = `
+'use strict';
+const t = require('module');
+const foo = 1;
+t(foo);
+const bar = ['x', 'y', 'z'];
+t(bar);
+`;
+
 test('load config in eslint to validate all rule syntax is correct', (t) => {
   const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
@@ -31,7 +40,7 @@ test('load no-babel config in eslint to validate all rule syntax is correct', (t
   const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
     configFile: 'no-babel.json'
-  }).executeOnText(code);
+  }).executeOnText(nonBabelCode);
 
   t.equal(results.length, 1, 'One result (empty)');
   t.equal(results[0].messages.length, 0, 'No messages');
