@@ -11,7 +11,7 @@ I'll probably change stuff quite a bit and just bump the patch version, and leav
 
 Things it does
 
-- `babel-eslint`
+- `babel-eslint` (or just ES6 for node stuff)
 - `react`
 - Some stuff copied from `standard`
 - Some stuff copied from the old 0.x.y `eslint` defaults
@@ -23,6 +23,8 @@ Things it does
 npm install @lukekarrys/eslint-config --save-dev
 npm install babel-eslint eslint eslint-plugin-react eslint-plugin-classes --save-dev
 echo '{\n  "extends": "@lukekarrys/eslint-config"\n}' > .eslintrc
+# or if its not using babel
+echo '{\n  "extends": "@lukekarrys/eslint-config/no-babel"\n}' > .eslintrc
 ```
 
 ## License
