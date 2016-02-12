@@ -1,0 +1,18 @@
+{
+  "extends": "./eslintrc.json",
+
+  "parser": "espree",
+
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module"
+  },
+
+  "env": {
+    "es6": true,
+    "node": true
+  }
+}
