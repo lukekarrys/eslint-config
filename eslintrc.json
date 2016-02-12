@@ -97,7 +97,7 @@
     "prefer-template": 2,
     "jsx-quotes": [2, "prefer-single"],
     "no-empty-pattern": 2,
-    "no-magic-numbers": [2, {"enforceConst": true, "ignoreArrayIndexes": true, "ignore": [-1, 0, 1]}],
+    "no-magic-numbers": [2, {"enforceConst": true, "ignoreArrayIndexes": true, "ignore": [-1, 0, 1, 2]}],
     "func-style": [2, "expression", {"allowArrowFunctions": true}],
     "arrow-body-style": [2, "as-needed"],
     "no-case-declarations": 2,
