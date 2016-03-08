@@ -15,7 +15,7 @@
     "babel-tape-runner": "^2.0.1",
     "eslint": "^2.2.0",
     "eslint-plugin-classes": "^0.1.1",
-    "eslint-plugin-react": "^4.2.0",
+    "eslint-plugin-react": "^4.2.1",
     "espree": "^3.1.1",
     "git-validate": "^2.1.4",
     "tape": "^4.5.1"
