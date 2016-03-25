@@ -129,6 +129,8 @@
     "no-useless-constructor": 2,
     "no-whitespace-before-property": 2,
     "template-curly-spacing": [2, "never"],
+    "no-duplicate-imports": 2,
+    "no-useless-escape": 2,
 
     // Classes
     "classes/space": 2,
