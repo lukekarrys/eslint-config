@@ -5,7 +5,6 @@
 
   "parserOptions": {
     "ecmaVersion": 6,
-    "sourceType": "script",
     "ecmaFeatures": {
       // Everything that works in node 5 without a flag
       "arrowFunctions": true,
