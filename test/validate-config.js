@@ -24,8 +24,7 @@ t(bar);
 test('load config in eslint to validate all rule syntax is correct', (t) => {
   const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
-    configFile: 'eslintrc.json',
-    parser: 'babel-eslint'
+    configFile: 'eslintrc.json'
   }).executeOnText(code);
 
   t.equal(results.length, 1, 'One result (empty)');
