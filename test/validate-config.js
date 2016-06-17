@@ -24,7 +24,7 @@ t(bar);
 test('load config in eslint to validate all rule syntax is correct', (t) => {
   const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
-    configFile: 'eslintrc.json'
+    configFile: 'index.js'
   }).executeOnText(code);
 
   t.equal(results.length, 1, 'One result (empty)');
@@ -39,7 +39,7 @@ test('load config in eslint to validate all rule syntax is correct', (t) => {
 test('load no-babel config in eslint to validate all rule syntax is correct', (t) => {
   const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
-    configFile: 'no-babel.json'
+    configFile: 'no-babel.js'
   }).executeOnText(nonBabelCode);
 
   t.equal(results.length, 1, 'One result (empty)');

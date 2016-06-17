@@ -1,9 +1,36 @@
-/* eslint no-var:0 */
+module.exports = {
+  'extends': '../index.js',
 
-'use strict';
+  parser: 'espree',
 
-var alce = require('alce');
-var path = require('path');
-var fs = require('fs');
+  parserOptions: {
+    ecmaVersion: 6,
+    ecmaFeatures: {
+      // Everything that works in node 5 without a flag
+      arrowFunctions: true,
+      binaryLiterals: true,
+      blockBindings: true,
+      classes: true,
+      defaultParams: true,
+      generators: true,
+      objectLiteralComputedProperties: true,
+      objectLiteralDuplicateProperties: true,
+      objectLiteralShorthandMethods: true,
+      objectLiteralShorthandProperties: true,
+      octalLiterals: true,
+      spread: true,
+      templateStrings: true
+    }
+  },
 
-module.exports = alce.parse(fs.readFileSync(path.join(__dirname, 'no-babel.json')));
+  env: {
+    es6: true,
+    node: true
+  },
+
+  rules: {
+    'no-invalid-this': 2,
+    strict: [2, 'safe'],
+    'prefer-rest-params': 0
+  }
+};
