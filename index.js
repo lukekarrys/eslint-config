@@ -134,7 +134,6 @@ module.exports = {
     'no-unsafe-finally': 2,
     'no-useless-computed-key': 2,
     'no-mixed-operators': 2,
-    'object-curly-newline': [2, {multiline: true}],
     'rest-spread-spacing': [2, 'never'],
 
     // Classes
