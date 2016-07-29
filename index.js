@@ -19,6 +19,14 @@ module.exports = {
     window: false
   },
 
+  settings: {
+    'import/resolver': 'webpack',
+    'import/ignore': [
+      'node_modules',
+      '.(svg|less|css|png|scss|jpg)$'
+    ]
+  },
+
   'extends': 'eslint:recommended',
   rules: {
     // Pre v1 eslint defaults
@@ -193,11 +201,11 @@ module.exports = {
     'import/no-named-as-default-member': 2,
     'import/no-extraneous-dependencies': 2,
     'import/no-mutable-exports': 2,
-    'import/imports-first': 2,
+    'import/imports-first': 0,
     'import/no-duplicates': 2,
     'import/order': [2, {groups: ['builtin', 'external', 'internal', ['parent', 'sibling'], 'index']}],
     'import/newline-after-import': 2,
-    'import/prefer-default-export': 2,
+    'import/prefer-default-export': 0,
 
     // Some stuff copied from standard
     'accessor-pairs': 2,

@@ -28,6 +28,10 @@ module.exports = {
     node: true
   },
 
+  settings: {
+    'import/resolver': 'node'
+  },
+
   rules: {
     'no-invalid-this': 2,
     strict: [2, 'safe'],
