@@ -6,6 +6,7 @@ import {CLIEngine} from 'eslint';
 const code = `
 'use strict';
 import t from 'module';
+
 const foo = 1;
 t(foo);
 const bar = ['x', 'y', 'z'];
@@ -15,6 +16,7 @@ t(bar);
 const nonBabelCode = `
 'use strict';
 const t = require('module');
+
 const foo = 1;
 t(foo);
 const bar = ['x', 'y', 'z'];

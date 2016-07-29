@@ -9,7 +9,8 @@ module.exports = {
 
   plugins: [
     'react',
-    'classes'
+    'classes',
+    'import'
   ],
 
   globals: {
@@ -181,6 +182,22 @@ module.exports = {
     'react/sort-comp': 2,
     'react/sort-prop-types': 0,
     'react/wrap-multilines': 2,
+
+    // Import
+    'import/no-unresolved': 2,
+    'import/named': 2,
+    'import/default': 2,
+    'import/namespace': 2,
+    'import/export': 2,
+    'import/no-named-as-default': 2,
+    'import/no-named-as-default-member': 2,
+    'import/no-extraneous-dependencies': 2,
+    'import/no-mutable-exports': 2,
+    'import/imports-first': 2,
+    'import/no-duplicates': 2,
+    'import/order': [2, {groups: ['builtin', 'external', 'internal', ['parent', 'sibling'], 'index']}],
+    'import/newline-after-import': 2,
+    'import/prefer-default-export': 2,
 
     // Some stuff copied from standard
     'accessor-pairs': 2,
