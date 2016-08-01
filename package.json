@@ -15,7 +15,7 @@
     "eslint-import-resolver-webpack": "^0.4.0",
     "eslint-plugin-classes": "^0.1.1",
     "eslint-plugin-import": "^1.12.0",
-    "eslint-plugin-react": "^5.2.2",
+    "eslint-plugin-react": "^6.0.0",
     "espree": "^3.1.6",
     "git-validate": "^2.1.4",
     "tape": "^4.6.0"
@@ -32,7 +32,7 @@
     "babel-eslint": "^6.1.2",
     "eslint": "^3.1.1",
     "eslint-plugin-classes": "^0.1.1",
-    "eslint-plugin-react": "^5.2.2"
+    "eslint-plugin-react": "^6.0.0"
   },
   "pre-commit": [
     "validate",
