@@ -135,7 +135,7 @@ module.exports = {
     'rest-spread-spacing': [2, 'never'],
 
     // Import plugin
-    'import/no-unresolved': 2,
+    'import/no-unresolved': [2, {commonjs: true}],
     'import/named': 2,
     'import/default': 2,
     'import/namespace': 2,
