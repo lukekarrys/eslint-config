@@ -1,5 +1,5 @@
 module.exports = {
-  'extends': './index.js',
+  'extends': './base.js',
 
   parser: 'espree',
 
@@ -26,10 +26,6 @@ module.exports = {
   env: {
     es6: true,
     node: true
-  },
-
-  settings: {
-    'import/resolver': 'node'
   },
 
   rules: {
