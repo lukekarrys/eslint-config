@@ -20,7 +20,8 @@ Things it does
 ## Usage
 
 ```sh
-npm install @lukekarrys/eslint-config --save-dev
+npm install @lukekarrys/eslint-config eslint-plugin-import --save-dev
+# If the project does babel/react stuff
 npm install babel-eslint eslint eslint-plugin-react eslint-plugin-classes --save-dev
 echo '{\n  "extends": "@lukekarrys/eslint-config"\n}' > .eslintrc
 # or if its not using babel
