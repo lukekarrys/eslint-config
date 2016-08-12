@@ -113,6 +113,10 @@ module.exports = {
     'no-useless-concat': 2,
     'no-nested-ternary': 2,
     'no-path-concat': 2,
+    'func-call-spacing': [2, 'never'],
+    'no-template-curly-in-string': 2,
+    'no-unsafe-negation': 2,
+    'no-global-assign': 2,
 
     // eslint v2 rules
     'array-callback-return': 2,
