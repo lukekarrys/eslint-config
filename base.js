@@ -138,6 +138,7 @@ module.exports = {
     'no-mixed-operators': 2,
     'rest-spread-spacing': [2, 'never'],
     'lines-around-directive': [2, 'always'],
+    'no-useless-return': 2,
 
     // Import plugin
     'import/no-unresolved': [2, {commonjs: true}],
