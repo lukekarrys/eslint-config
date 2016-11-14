@@ -87,7 +87,7 @@ module.exports = {
     'no-else-return': 2,
     'no-var': 2,
     'brace-style': [2, 'stroustrup', {allowSingleLine: true}],
-    'func-names': 2,
+    'func-names': [2, 'as-needed'],
     'object-shorthand': [2, 'always'],
     'prefer-const': 2,
     'arrow-parens': [2, 'always'],
@@ -139,6 +139,7 @@ module.exports = {
     'rest-spread-spacing': [2, 'never'],
     'lines-around-directive': [2, 'always'],
     'no-useless-return': 2,
+    'no-return-await': 2,
 
     // Import plugin
     'import/no-unresolved': [2, {commonjs: true}],
