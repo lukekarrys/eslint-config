@@ -20,7 +20,7 @@
     "git-validate": "^2.2.2",
     "greenkeeper-postpublish": "^1.0.1",
     "tape": "^4.6.0",
-    "webpack": "^1.13.2"
+    "webpack": "^2.2.1"
   },
   "homepage": "https://github.com/lukekarrys/eslint-config",
   "keywords": [
