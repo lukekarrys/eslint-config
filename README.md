@@ -22,7 +22,7 @@ Things it does
 ```sh
 npm install @lukekarrys/eslint-config eslint-plugin-import --save-dev
 # If the project does babel/react stuff
-npm install babel-eslint eslint eslint-plugin-react eslint-plugin-classes --save-dev
+npm install babel-eslint eslint eslint-plugin-react eslint-plugin-classes eslint-plugin-promise --save-dev
 echo '{\n  "extends": "@lukekarrys/eslint-config"\n}' > .eslintrc
 # or if its not using babel
 echo '{\n  "extends": "@lukekarrys/eslint-config/no-babel"\n}' > .eslintrc

@@ -12,7 +12,8 @@ module.exports = {
   },
 
   plugins: [
-    'import'
+    'import',
+    'promise'
   ],
 
   'extends': 'eslint:recommended',
@@ -140,6 +141,20 @@ module.exports = {
     'lines-around-directive': [2, 'always'],
     'no-useless-return': 2,
     'no-return-await': 2,
+    'require-await': 2,
+    'require-yield': 2,
+    'no-await-in-loop': 2,
+    'prefer-destructuring': [2, {array: false, object: true}],
+    'prefer-promise-reject-errors': 2,
+    'template-tag-spacing': 2,
+    'no-compare-neg-zero': 2,
+    'nonblock-statement-body-position': 2,
+
+    // Promise
+    'promise/catch-or-return': 2,
+    'promise/no-return-wrap': 2,
+    'promise/param-names': 2,
+    'promise/always-return': 2,
 
     // Import plugin
     'import/no-unresolved': [2, {commonjs: true}],

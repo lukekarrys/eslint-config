@@ -43,6 +43,7 @@ module.exports = {
     'react/jsx-pascal-case': 2,
     'react/jsx-sort-props': 0,
     'react/jsx-space-before-closing': 2,
+    'react/jsx-tag-spacing': 2,
     'react/jsx-uses-react': 2,
     'react/jsx-uses-vars': 2,
     'react/jsx-wrap-multilines': 2,
@@ -56,12 +57,16 @@ module.exports = {
     'react/no-multi-comp': 0,
     'react/no-unknown-property': 2,
     'react/no-render-return-value': 2,
+    'react/no-unescaped-entities': 2,
+    'react/no-unused-prop-types': 2,
     'react/prefer-es6-class': 2,
     'react/prop-types': 2,
     'react/react-in-jsx-scope': 2,
     'react/require-render-return': 2,
     'react/self-closing-comp': 2,
     'react/sort-comp': 2,
-    'react/sort-prop-types': 0
+    'react/sort-prop-types': 0,
+    'react/style-prop-object': 2,
+    'react/void-dom-elements-no-children': 2
   }
 };
