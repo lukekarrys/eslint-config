@@ -1,9 +1,8 @@
 # @lukekarrys/eslint-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/lukekarrys/eslint-config.svg)](https://greenkeeper.io/)
-
 [![NPM](https://img.shields.io/npm/v/@lukekarrys/eslint-config.svg)](https://www.npmjs.com/package/@lukekarrys/eslint-config)
 [![Build Status](https://img.shields.io/travis/lukekarrys/eslint-config/master.svg)](https://travis-ci.org/lukekarrys/eslint-config)
+[![Greenkeeper badge](https://badges.greenkeeper.io/lukekarrys/eslint-config.svg)](https://greenkeeper.io/)
 
 This is my [`eslint`](http://eslint.org/) config.
 
