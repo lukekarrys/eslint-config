@@ -13,6 +13,7 @@
     "babel-tape-runner": "^2.0.1",
     "eslint": "^3.19.0",
     "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-classes": "^0.1.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-promise": "^3.5.0",

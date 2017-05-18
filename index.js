@@ -5,7 +5,8 @@ module.exports = {
 
   plugins: [
     'react',
-    'classes'
+    'classes',
+    'babel'
   ],
 
   settings: {
@@ -21,6 +22,12 @@ module.exports = {
     'classes/space': 2,
     'classes/name': [2, 'class', 'method'],
     'classes/style': 2,
+
+    // Babel
+    'no-invalid-this': 0,
+    'babel/no-invalid-this': 2,
+    'babel/object-curly-spacing': [2, 'never'],
+    'babel/semi': 2,
 
     // React plugin
     'react/display-name': 2,

@@ -107,9 +107,7 @@ module.exports = {
     'linebreak-style': [2, 'unix'],
     'no-empty': 2,
     'no-extra-semi': 2,
-    // Remove since es7 class properties arent supported
-    // https://github.com/babel/eslint-plugin-babel/issues/12
-    // "no-invalid-this": 2,
+    'no-invalid-this': 2,
     'quote-props': [2, 'as-needed', {keywords: true}],
     'no-useless-concat': 2,
     'no-nested-ternary': 2,
