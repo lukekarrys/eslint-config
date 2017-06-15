@@ -136,7 +136,6 @@ module.exports = {
     'no-useless-computed-key': 2,
     'no-mixed-operators': 2,
     'rest-spread-spacing': [2, 'never'],
-    'lines-around-directive': [2, 'always'],
     'no-useless-return': 2,
     'no-return-await': 2,
     'require-await': 2,
@@ -147,6 +146,22 @@ module.exports = {
     'template-tag-spacing': 2,
     'no-compare-neg-zero': 2,
     'nonblock-statement-body-position': 2,
+
+    // eslint v4 rules
+    // TODO: this might be worth looking at again if there's an option so that
+    // if theres any newline, require all newlines. Currently the newline option
+    // applies to an element in the array containing newlines.
+    // 'array-element-newline': [2, {multiline: true}],
+    'semi-style': [2, 'last'],
+    'switch-colon-spacing': 2,
+    'array-bracket-newline': ['error', {multiline: true}],
+    'no-buffer-constructor': 2,
+    'padding-line-between-statements': [
+      2,
+      // These take the place of the deprected lines-around-directive
+      {blankLine: 'always', prev: 'directive', next: '*'},
+      {blankLine: 'any', prev: 'directive', next: 'directive'}
+    ],
 
     // Promise
     'promise/catch-or-return': 2,
