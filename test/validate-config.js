@@ -1,7 +1,7 @@
 'use strict';
 
-import test from 'tape';
-import {CLIEngine} from 'eslint';
+const test = require('tape');
+const {CLIEngine} = require('eslint');
 
 const code = `
 'use strict';
@@ -28,7 +28,10 @@ t(bar);
 test('load config in eslint to validate all rule syntax is correct', (t) => {
   const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
-    configFile: 'index.js'
+    configFile: 'index.js',
+    parserOptions: {
+      sourceType: 'module'
+    }
   }).executeOnText(code);
 
   t.equal(results.length, 1, 'One result (empty)');

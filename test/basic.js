@@ -1,9 +1,9 @@
 'use strict';
 
-import test from 'tape';
-import config from '../index.js'; // eslint-disable-line import/default
-import configNoBabel from '../no-babel.js'; // eslint-disable-line import/default
-import configBase from '../base.js'; // eslint-disable-line import/default
+const test = require('tape');
+const config = require('../index.js');
+const configNoBabel = require('../no-babel.js');
+const configBase = require('../base.js');
 
 const isObject = (obj) => typeof obj === 'object' && obj !== null;
 const isString = (obj) => typeof obj === 'string';
