@@ -10,7 +10,7 @@
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.0.0",
-    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-babel": "^4.1.1",
     "eslint-plugin-classes": "^0.1.1",
     "eslint-plugin-import": "^2.6.0",
