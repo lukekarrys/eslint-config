@@ -28,10 +28,7 @@ t(bar);
 test('load config in eslint to validate all rule syntax is correct', (t) => {
   const {results, errorCount, warningCount} = new CLIEngine({
     useEslintrc: false,
-    configFile: 'index.js',
-    parserOptions: {
-      sourceType: 'module'
-    }
+    configFile: 'index.js'
   }).executeOnText(code);
 
   t.equal(results.length, 1, 'One result (empty)');

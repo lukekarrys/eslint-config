@@ -1,7 +1,13 @@
+'use strict';
+
 module.exports = {
   'extends': './base.js',
 
   parser: 'babel-eslint',
+
+  parserOptions: {
+    sourceType: 'module'
+  },
 
   plugins: [
     'react',
