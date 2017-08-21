@@ -1,7 +1,7 @@
 {
   "name": "@lukekarrys/eslint-config",
   "description": "My eslint config.",
-  "version": "5.1.1",
+  "version": "6.0.0",
   "author": "Luke Karrys <luke@lukekarrys.com>",
   "bugs": {
     "url": "https://github.com/lukekarrys/eslint-config/issues"
