@@ -15,7 +15,9 @@ module.exports = {
 
   plugins: [
     'import',
-    'promise'
+    'promise',
+    'prefer-object-spread',
+    'mysticatea'
   ],
 
   'extends': 'eslint:recommended',
@@ -170,6 +172,10 @@ module.exports = {
     'promise/no-return-wrap': 2,
     'promise/param-names': 2,
     'promise/always-return': 2,
+
+    // Prefer rest spread (now that its in node 8.4.0)
+    'prefer-object-spread/prefer-object-spread': 2,
+    'mysticatea/no-useless-rest-spread': 2,
 
     // Import plugin
     'import/no-unresolved': [2, {commonjs: true}],

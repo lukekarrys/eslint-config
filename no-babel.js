@@ -6,23 +6,7 @@ module.exports = {
   parser: 'espree',
 
   parserOptions: {
-    ecmaVersion: 6,
-    ecmaFeatures: {
-      // Everything that works in node 5 without a flag
-      arrowFunctions: true,
-      binaryLiterals: true,
-      blockBindings: true,
-      classes: true,
-      defaultParams: true,
-      generators: true,
-      objectLiteralComputedProperties: true,
-      objectLiteralDuplicateProperties: true,
-      objectLiteralShorthandMethods: true,
-      objectLiteralShorthandProperties: true,
-      octalLiterals: true,
-      spread: true,
-      templateStrings: true
-    }
+    ecmaVersion: 8
   },
 
   env: {
@@ -31,8 +15,6 @@ module.exports = {
   },
 
   rules: {
-    'no-invalid-this': 2,
-    strict: [2, 'safe'],
-    'prefer-rest-params': 0
+    strict: [2, 'safe']
   }
 };
