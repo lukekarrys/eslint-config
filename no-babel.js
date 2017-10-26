@@ -6,7 +6,10 @@ module.exports = {
   parser: 'espree',
 
   parserOptions: {
-    ecmaVersion: 8
+    ecmaVersion: 8,
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
+    }
   },
 
   env: {
