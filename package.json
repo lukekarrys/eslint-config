@@ -1,12 +1,11 @@
 {
   "name": "@lukekarrys/eslint-config",
   "description": "My eslint config.",
-  "version": "5.1.1",
+  "version": "6.0.0",
   "author": "Luke Karrys <luke@lukekarrys.com>",
   "bugs": {
     "url": "https://github.com/lukekarrys/eslint-config/issues"
   },
-  "dependencies": {},
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "eslint": "^4.4.1",
@@ -14,6 +13,8 @@
     "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-classes": "^0.1.1",
     "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-mysticatea": "^4.2.2",
+    "eslint-plugin-prefer-object-spread": "^1.2.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.2.1",
     "espree": "^3.5.0",
